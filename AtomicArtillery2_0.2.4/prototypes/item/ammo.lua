@@ -2,7 +2,7 @@ data:extend(
 {
 	{
         type = "ammo",
-        ammo_category = "bullet",
+        ammo_category = "artillery-shell",
 		name = "atomic-artillery-shell",
 		icon = "__AtomicArtillery__/graphics/icons/atomic-artillery-shell.png",
 		icon_size = 32,
