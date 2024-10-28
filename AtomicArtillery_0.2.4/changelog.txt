@@ -1,3 +1,7 @@
+Version: 0.2.4
+Date: 28/10/2024
+  Changes:
+    - Forked the original mod by sirdoombox as it was no longer being maintained and updated it to work with Factorio 2.0.
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.3
 Date: 27/11/2020

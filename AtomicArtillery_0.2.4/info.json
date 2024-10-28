@@ -1,0 +1,11 @@
+{
+    "name": "AtomicArtillery",
+    "version": "0.2.4",
+    "title": "Atomic Artillery",
+    "author": "kommade",
+    "contact": "https://github.com/kommade/AtomicArtillery",
+    "homepage": "https://github.com/kommade/AtomicArtillery",
+    "factorio_version": "2.0",
+    "dependencies": ["base >= 2.0.0"],
+    "description": "Adds Artillery Shells with a nuclear payload, a super lategame nuke alternative. Forked from Atomic Artillery by Doombox"
+}

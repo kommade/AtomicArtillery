@@ -16,14 +16,14 @@ data:extend(
 		map_color = {r=1, g=1, b=0},
 		picture =
 		{
-			filename = "__AtomicArtillery__/graphics/entity/artillery-projectile/hr-atomic-shell.png",
+			filename = "__AtomicArtillery__/graphics/entity/artillery-projectile/atomic-shell.png",
 			width = 64,
 			height = 64,
 			scale = 0.5,
 		},
 		shadow =
 		{
-			filename = "__base__/graphics/entity/artillery-projectile/hr-shell-shadow.png",
+			filename = "__base__/graphics/entity/artillery-projectile/shell-shadow.png",
 			width = 64,
 			height = 64,
 			scale = 0.5,
@@ -131,7 +131,7 @@ data:extend(
 				  tile_name = "nuclear-ground",
 				  radius = 12,
 				  apply_projection = true,
-				  tile_collision_mask = { "water-tile" },
+				  tile_collision_mask = { layers = {water_tile=true} },
 				},
 				{
 				  type = "create-entity",
@@ -269,7 +269,7 @@ data:extend(
 						{
 						  type = "create-entity",
 						  entity_name = "nuclear-smouldering-smoke-source",
-						  tile_collision_mask = { "water-tile" }
+						  tile_collision_mask = { layers = {water_tile=true}, }
 						}
 					  }
 					}
